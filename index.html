@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- nav start -->
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <ul>
+                <li><img src="images/notification.png" alt="n"></li>
+                <li><img src="images/inbox.png" alt="n"></li>
+                <li><img src="images/video.png" alt="n"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text"placeholder="search">
+            </div>
+            <div class="nav-user-icone online">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+    <!-- container stat -->
+    <div class="container">
+        <!-- left-sidebar start -->
+        <div class="left-sidebar">
+            <div class="emp-links">
+                <a href="#"><img src="images/news.png">Last News</a>
+                <a href="#"><img src="images/friends.png">Friends</a>
+                <a href="#"><img src="images/group.png">Group</a>
+                <a href="#"><img src="images/marketplace.png">Marketplace</a>
+                <a href="#"><img src="images/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcut</p>
+                <a href="#"><img src="images/shortcut-1.png">Learn Python</a>
+                <a href="#"><img src="images/shortcut-2.png">Learn Java</a>
+                <a href="#"><img src="images/shortcut-3.png">Learn Php+Sql</a>
+                <a href="#"><img src="images/shortcut-4.png">Learn Html+css</a>
+            </div>
+        </div>
+        <!--main-content start  -->
+        <div class="main-content">
+            <div class="story-gallary">
+                <div class="story s1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story s2">
+                    <img src="images/member-1.png">
+                    <p>Mona Nashar</p>
+                </div>
+                <div class="story s3">
+                    <img src="images/member-2.png">
+                    <p>Mohamad Omar</p>
+                </div>
+                <div class="story s4">
+                    <img src="images/member-3.png">
+                    <p>Rania Alhaded</p>
+                </div>
+                <div class="story s5">
+                    <img src="images/member-4.png">
+                    <p>Emad hadad</p>
+                </div>
+                
+            </div>
+            <div class="write-post">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                <div>
+                    <p>Raghad Nashar</p>
+                    <small>Puplic</small>
+                </div>
+                </div>
+                <div class="post-input">
+                    <textarea placeholder="Write Something..... Raghad  ?" ></textarea>
+                    <div class="add-post-links">
+                        
+                        <a href="#"><img src="images/live-video.png">live Video</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="posting">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                  <div>
+                     <p>Raghad Nashar</p>
+                     <small>April  20  2021  ,  13:11Pm</small>
+                   </div>
+                </div>
+                <p>Learn Programing With Rakwan Please Subscrip Our Chaneel <a href="https://www.youtube.com/watch?v=smKHKgedkP4" target="_blank">Our Chaneel</a></p>
+                <video src="video.mp4"  controls ></video>
+                <div class="com-share-like">
+                    <div class="icons">
+                        <div><img src="images/like-blue.png">Link</div>
+                        <div><img src="images/comments.png" >Comment</div>
+                        <div><img src="images/share.png" >Share</div>
+                    </div>
+                </div>
+                  </div>
+                  <div class="posting">
+                    <div class="user-profile">
+                        <img src="images/member-2.png" alt="">
+                      <div>
+                         <p>Mohamad Omar</p>
+                         <small>April  23  2021  ,  4:1 Pm</small>
+                       </div>
+                    </div>
+                    <p> i started studying now   &#128514</p>
+                    <img src="images/feed-image-1.png" width="100%" height="350px" alt="">
+                    <div class="com-share-like">
+                        <div class="icons">
+                          <div><img src="images/like.png" id="image" onclick="like()" style="cursor: pointer;" >like</div>
+                            <div><img src="images/comments.png" >Comment</div>
+                            <div><img src="images/share.png" >Share</div>
+                        </div>
+                    </div>
+                      </div>
+                      <div class="posting">
+                        <div class="user-profile">
+                            <img src="images/member-4.png" alt="">
+                          <div>
+                             <p>Emad hadad</p>
+                             <small>April  1  2021  ,  11:4 Pm</small>
+                           </div>
+                        </div>
+                        <p>Our trip to the beautiful sea and fresh air &#128525</p>
+                        <video src="video2.mp4" controls></video>
+                        <div class="com-share-like">
+                            <div class="icons">
+                                <div><img src="images/like-blue.png">Link</div>
+                                <div><img src="images/comments.png" >Comment</div>
+                                <div><img src="images/share.png" >Share</div>
+                            </div>
+                        </div>
+                          </div>
+                          <div class="posting">
+                            <div class="user-profile">
+                                <img src="images/member-1.png" alt="">
+                              <div>
+                                 <p>Mona Nashar</p>
+                                 <small>April  1  2022  ,  5:8 Am</small>
+                               </div>
+                            </div>
+                            <p> Today i prepared a delicious food  &#128515</p>
+                            <img src="images/chicken.jpeg" alt="">
+
+                            <div class="com-share-like">
+                                <div class="icons">
+                                    <div><img src="images/like-blue.png">Link</div>
+                                    <div><img src="images/comments.png" >Comment</div>
+                                    <div><img src="images/share.png" >Share</div>
+                                </div>
+                            </div>
+                              </div>
+        </div>
+
+        <!-- right-sidebar start -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See More</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>20</h3>
+                    <span>March</span>
+                </div>
+                
+                <div class="right-event">
+                  <h4>Birthday</h4>
+                  <p>Raghad Nagshar,Syria</p>
+                  <a href="#">More info</a>
+                </div>
+
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>10</h3>
+                    <span>April</span>
+                </div>
+                
+                <div class="right-event">
+                  <h4>Birthday</h4>
+                  <p>Mona Nagshar,Iraq</p>
+                  <a href="#">More info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png">
+                </div>
+                <p>Mona Nashar</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png">
+                </div>
+                <p>Mohamad Omar</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png">
+                </div>
+                <p>Rania Alhaded</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-4.png">
+                </div>
+                <p>Emad hadad</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
